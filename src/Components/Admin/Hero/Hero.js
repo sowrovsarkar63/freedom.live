@@ -215,6 +215,36 @@ export default function Hero() {
 
 </div>
 </section>
+
+{/* Captcha section */}
+
+<section className="captcha section flex justify-center mt-5 mb-5">
+
+<div className="captcha-container  w-96 h-36 bg-white relative shadow-xl max-w-sm">
+  <p className='text-sm font-poppin font-normal text-gray-400 px-2'>Captcha</p>
+  <div className="absolute bg-gray-400 w-46 h-18 top-14 left-14 bottom-10 right-10 max-w-xs">
+
+  </div>
+  </div>    
+
+</section>
+
+<section className='captcha-btn flex justify-center '>
+ <div className='w-96 h-36 max-w-sm flex justify-between border-b-2'>
+ <button className=' px-8 py-2 btn-sm rounded-full text-sm text-white font-normal font-poppin bg-[#BB0000]'>Cancel </button>
+
+ <button className='px-8 py-2  btn-sm rounded-full text-sm text-white font-normal font-poppin bg-[#005BBB]'>Add </button>
+
+ </div>
+ 
+</section>
+
+{/* devider */}
+<section className='flex justify-center'>
+    <hr />
+</section>
+<br /><br /><br />
+
    </>
   )
 }
