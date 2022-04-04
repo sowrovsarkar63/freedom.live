@@ -27,10 +27,10 @@ export default function Navbar() {
          
         </nav>
         <ul className="flex flex-col space-x-5 py-5 md:flex-row md:justify-center lg:flex-row lg:justify-center xl:flex-row xl:justify-center 2xl:flex-row 2xl:justify-center">
-            <a href="http://">Account setting</a>
-            <a href="http://">Edit Profile</a>
-            <a href="http://">About freedom.live</a>
-            <a href="http://">Log out </a>
+            <a href="http://" className="font-poppin text-md">Account setting</a>
+            <a href="http://" className="font-poppin text-md">Edit Profile</a>
+            <a href="http://" className="font-poppin text-md">About freedom.live</a>
+            <a href="http://" className="font-poppin text-md">Log out </a>
             
           </ul>
       </header>

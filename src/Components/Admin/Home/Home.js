@@ -1,4 +1,5 @@
 import React from 'react'
+import Hero from '../Hero/Hero'
 import Navbar from '../Navbar/Navbar'
 
 export default function Home() {
@@ -6,7 +7,7 @@ export default function Home() {
     <>
     <Navbar/>
     
-    <h2>This is admin area</h2>
+    <Hero/>
     
     </>
   )
