@@ -30,7 +30,7 @@ export default function Donator() {
           </div>
           <input
             type="text"
-            className="block p-2 pl-10 w-70 h-16 text-gray-900 bg-gray-50 rounded-2xl border border-gray-300 focus:pl-3"
+            className="block p-2 pl-10 w-70 h-16 text-gray-900 bg-gray-50 rounded-2xl border border-gray-300 "
             placeholder="Enter Location"
             onFocus={handleFocus}
             onBlur={handleBlur}
@@ -68,7 +68,196 @@ export default function Donator() {
 
 
 
+      <div className="details flex justify-evenly bg-black  text-white mx-48 rounded-lg shadow-xl p-5 mb-5">
+         <div className="persona flex">
+            <img src="/assets/Ellipse 1.png" alt="image" />
+            <div className="flex flex-col ml-5">
+            <strong>Country</strong>
+            <p>Australia</p>
+            </div>
+
+
+            {/*  */}
+            <div className="flex flex-col ml-5">
+            <strong>City</strong>
+            <p>Viena</p>
+            </div>
+            {/*  */}
+
+            <div className="flex flex-col ml-5">
+            <strong>What?</strong>
+            <p>I'm a shelder</p>
+            </div>
+
+  {/*  */}
+
+  <div className="flex flex-col ml-5  ">
+            <strong>Description</strong>
+            <p className="text-sm">hi, my name is Szymon and i’m a professional shelterer  at my 3 Room   apartament in  viennai can host you</p>
+</div>
+         </div>
+         <div className="contact flex justify-center">
+         <div className="flex flex-col ml-5 ">
+            <strong>Contact </strong>
+            <p className="break-all">+43 676 49459295</p>
+            <p>szymon@gmail.com</p>
+</div>
+
+<div className="flex flex-col ml-5 ">
+            <strong>Available? </strong>
+            <p className="text-green-300">Available</p>
+            
+</div>
+         </div>
+
+
+     </div>
+     {/* items 2 */}
+
+     <div className="details flex justify-evenly bg-blue-400  text-white mx-48 rounded-lg shadow-xl p-5 mb-5">
+         <div className="persona flex">
+            <img src="/assets/Ellipse 1.png" alt="image" />
+            <div className="flex flex-col ml-5">
+            <strong>Country</strong>
+            <p>Australia</p>
+            </div>
+
+
+            {/*  */}
+            <div className="flex flex-col ml-5">
+            <strong>City</strong>
+            <p>Viena</p>
+            </div>
+            {/*  */}
+
+            <div className="flex flex-col ml-5">
+            <strong>What?</strong>
+            <p>I'm a shelder</p>
+            </div>
+
+  {/*  */}
+
+  <div className="flex flex-col ml-5  ">
+            <strong>Description</strong>
+            <p className="text-sm">hi, my name is Szymon and i’m a professional shelterer  at my 3 Room   apartament in  viennai can host you</p>
+</div>
+         </div>
+         <div className="contact flex justify-center">
+         <div className="flex flex-col ml-5 ">
+            <strong>Contact </strong>
+            <p className="break-all">+43 676 49459295</p>
+            <p>szymon@gmail.com</p>
+</div>
+
+<div className="flex flex-col ml-5 ">
+            <strong>Available? </strong>
+            <p className="text-green-300">Available</p>
+            
+</div>
+         </div>
+
+
+     </div>
+
+
+     {/* item 3 */}
+
      
+     <div className="details flex justify-evenly bg-blue-400  text-white mx-48 rounded-lg shadow-xl p-5 mb-5">
+         <div className="persona flex">
+            <img src="/assets/Ellipse 1.png" alt="image" />
+            <div className="flex flex-col ml-5">
+            <strong>Country</strong>
+            <p>Australia</p>
+            </div>
+
+
+            {/*  */}
+            <div className="flex flex-col ml-5">
+            <strong>City</strong>
+            <p>Viena</p>
+            </div>
+            {/*  */}
+
+            <div className="flex flex-col ml-5">
+            <strong>What?</strong>
+            <p>I'm a shelder</p>
+            </div>
+
+  {/*  */}
+
+  <div className="flex flex-col ml-5  ">
+            <strong>Description</strong>
+            <p className="text-sm">hi, my name is Szymon and i’m a professional shelterer  at my 3 Room   apartament in  viennai can host you</p>
+</div>
+         </div>
+         <div className="contact flex justify-center">
+         <div className="flex flex-col ml-5 ">
+            <strong>Contact </strong>
+            <p className="break-all">+43 676 49459295</p>
+            <p>szymon@gmail.com</p>
+</div>
+
+<div className="flex flex-col ml-5 ">
+            <strong>Available? </strong>
+            <p className="text-green-300">Available</p>
+            
+</div>
+         </div>
+
+
+     </div>
+
+
+     {/* item 4 */}
+
+     
+     <div className="details flex justify-evenly bg-blue-400  text-white mx-48 rounded-lg shadow-xl p-5 mb-5">
+         <div className="persona flex">
+            <img src="/assets/Ellipse 1.png" alt="image" />
+            <div className="flex flex-col ml-5">
+            <strong>Country</strong>
+            <p>Australia</p>
+            </div>
+
+
+            {/*  */}
+            <div className="flex flex-col ml-5">
+            <strong>City</strong>
+            <p>Viena</p>
+            </div>
+            {/*  */}
+
+            <div className="flex flex-col ml-5">
+            <strong>What?</strong>
+            <p>I'm a shelder</p>
+            </div>
+
+  {/*  */}
+
+  <div className="flex flex-col ml-5  ">
+            <strong>Description</strong>
+            <p className="text-sm">hi, my name is Szymon and i’m a professional shelterer  at my 3 Room   apartament in  viennai can host you</p>
+</div>
+         </div>
+         <div className="contact flex justify-center">
+         <div className="flex flex-col ml-5 ">
+            <strong>Contact </strong>
+            <p className="break-all">+43 676 49459295</p>
+            <p>szymon@gmail.com</p>
+</div>
+
+<div className="flex flex-col ml-5 ">
+            <strong>Available? </strong>
+            <p className="text-green-300">Available</p>
+            
+</div>
+         </div>
+
+
+     </div>
+
+    
 
 
     </section>

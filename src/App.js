@@ -1,23 +1,15 @@
-
-import Donator from './Components/Donators/Donator';
-import Footer from './Components/Footer/Footer';
-import Hero from './Components/Hero/Hero';
-import Navbar from './Components/Navbar/Navbar';
-
+import { Route, Routes } from "react-router-dom";
+import Home from "./Components/Admin/Home/Home";
+import Main from "./Components/Main/Main";
 function App() {
   return (
-    // Root file 
-   <>
-   {/* navigation bar */}
-   <Navbar/>
-
-   {/* hero area  */}
-   <Hero/>
-{/* donar section */}
-<Donator/>
-   {/* footer */}
-   <Footer/>
-   </>
+    // Root file
+    <>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/admin" element={<Home />} />
+      </Routes>
+    </>
   );
 }
 

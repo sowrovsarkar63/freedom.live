@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <>
-    <nav className='flex justify-around py-6 bg-white'>
+   <>
+    <header className='py-6 bg-white'>
+    <nav className='flex justify-around '>
       <div className="flex logo">
           <img src="/assets/image 3.png" alt="freedomlive logo" />
           <h2 className='flex items-end text-2xl mx-1 text-[#9BC9FF] font-bold font-poppin '>freedom <span className='text-blue-900'>.live</span></h2>
@@ -23,6 +24,7 @@ export default function Navbar() {
 
       
     </nav>
-    </>
+    </header>
+   </>
   )
 }
