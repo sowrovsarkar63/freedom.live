@@ -12,5 +12,10 @@ module.exports = {
       poppin:['Poppins','sans-serif']
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')({
+      strategy: 'base', // only generate global styles
+      strategy: 'class',
+    }),
+  ],
 }

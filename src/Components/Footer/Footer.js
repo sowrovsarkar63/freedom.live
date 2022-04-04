@@ -4,8 +4,9 @@ export default function Footer() {
   return (
     <footer>
       {/* <section className=" mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 ">\ */}
-      <section className="mt-16  grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3  ">
-      
+      {/* <section className="mt-16  grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3  ">
+       */}
+      <section className="flex flex-col gap-y-5   md:flex-row md:justify-evenly lg:flex-row lg:justify-evenly xl:flex-row xl:justify-evenly 2xl:flex-row 2xl:justify-evenly py-10">
         <div className="contact">
      
           
@@ -29,7 +30,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="aboutproject text-center  w-72">
+        <div className="aboutproject text-center   w-72">
           <h2 className="font-medium text-xl leading-7 text-[#5C5C5C] font-poppin">
             About Project
           </h2>
@@ -39,7 +40,7 @@ export default function Footer() {
             ever since the 1500s.
           </p>
         </div>
-        <div className="aboutproject w-72 mb-16 text-center">
+        <div className="aboutproject w-72 mb-16 text-center md:text-right lg:text-right xl:text-right 2xl:text-right">
           <h2 className="font-medium text-xl leading-7 text-[#5C5C5C] font-poppin">
             About Project
           </h2>
