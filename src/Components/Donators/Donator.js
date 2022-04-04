@@ -65,7 +65,12 @@ export default function Donator() {
        </div>
         </div>
       </div>
+
+
+
+     
+
+
     </section>
   );
 }
-// py-4 px-6
