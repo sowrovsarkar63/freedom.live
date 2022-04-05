@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <>
       <header className="py-6 bg-white shadow-sm">
-        <nav className="flex justify-around ">
+        <nav className="flex flex-col space-y-5 space-x-5 md:flex-row md:justify-around lg:flex-row lg:justify-around xl:flex-row xl:justify-around 2xl:flex-row 2xl:justify-around ">
           <div className="flex logo">
             <img src="/assets/image 3.png" alt="freedomlive logo" />
             <h2 className="flex items-end text-2xl mx-1 text-[#9BC9FF] font-bold font-poppin ">
@@ -26,7 +26,9 @@ export default function Navbar() {
 
          
         </nav>
-        <ul className="flex flex-col space-x-5 py-5 md:flex-row md:justify-center lg:flex-row lg:justify-center xl:flex-row xl:justify-center 2xl:flex-row 2xl:justify-center">
+        <ul className="flex flex-col space-x-5 space-y-2 py-5 md:flex-row md:justify-center lg:flex-row lg:justify-center xl:flex-row xl:justify-center 2xl:flex-row 2xl:justify-center">
+            {/* empty div for proper alignment  */}
+            <div></div> 
             <a href="http://" className="font-poppin text-md">Account setting</a>
             <a href="http://" className="font-poppin text-md">Edit Profile</a>
             <a href="http://" className="font-poppin text-md">About freedom.live</a>
