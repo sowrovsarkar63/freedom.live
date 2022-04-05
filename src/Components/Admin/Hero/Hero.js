@@ -243,7 +243,7 @@ export default function Hero() {
 <section className='flex justify-center'>
     <hr />
 </section>
-<br /><br /><br />
+
 
    </>
   )
