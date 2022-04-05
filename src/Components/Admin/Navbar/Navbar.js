@@ -16,10 +16,10 @@ export default function Navbar() {
           </div>
 
           <div className="relative">
-            <button class="py-3 px-10 bg-[#DE5A5A] text-white  rounded-full shadow-md  focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 absolute right-20 mr-5">
+            <button class="py-3 px-10 bg-[#F6F8FA] text-[#B5BAC7]   rounded-full shadow-md  focus:outline-none focus:ring-2  focus:ring-opacity-75   ">
               REFUGEE
             </button>
-            <button class="py-3 px-10 bg-[#F6F8FA] text-[#B5BAC7]  rounded-full shadow-md  focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75  ">
+            <button class="py-3 px-10 bg-[#2488FF] text-white  rounded-full shadow-md  focus:outline-none focus:ring-2  focus:ring-opacity-75 absolute left-20 ml-5">
               OFFER
             </button>
           </div>
