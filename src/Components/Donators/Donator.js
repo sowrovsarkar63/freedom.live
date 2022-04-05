@@ -10,7 +10,7 @@ export default function Donator() {
   };
   return (
     <section className="donars">
-      <div className=" flex flex-col align-middle md:flex-row md:justify-around lg:flex-row lg:justify-around xl:flex-row xl:justify-around 2xl:flex-row 2xl:justify-around py-5">
+      <div className=" flex flex-col items-center space-y-5 md:flex-row md:justify-around lg:flex-row lg:justify-around xl:flex-row xl:justify-around 2xl:flex-row 2xl:justify-around py-5">
         {/* left searchbar */}
 
         <div className="relative mr-3">
@@ -39,7 +39,7 @@ export default function Donator() {
 
         {/* right filter and filter icon */}
 
-        <div className="search-by-filter">
+        {/* <div className="search-by-filter">
        <div className="flex justify-center">
        <h3 className="text-xl underline"> Search by map</h3>
         <div className="relative inline-block text-left">
@@ -54,7 +54,7 @@ export default function Donator() {
   <div className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
     <div className="py-1" role="none">
       {/* <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" --> */}
-      <a href="#" className="text-gray-300 block px-4 py-2 text-sm font-poppin" role="menuitem" tabindex="-1" id="menu-item-0">Filter by</a>
+      {/* <a href="#" className="text-gray-300 block px-4 py-2 text-sm font-poppin" role="menuitem" tabindex="-1" id="menu-item-0">Filter by</a>
       <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">City</a>
       <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Country</a>
       <a href="#" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Ogranization</a>
@@ -63,13 +63,14 @@ export default function Donator() {
   </div>
 </div>
        </div>
-        </div>
+        </div> */} 
       </div>
 
 
-
-      <div className="details flex justify-evenly bg-black  text-white mx-48 rounded-lg shadow-xl p-5 mb-5">
-         <div className="persona flex">
+<div className="flex justify-center">
+  
+<div className="details flex flex-col     items-start lg:flex-row lg:justify-evenly xl:flex-row xl:justify-evenly 2xl:flex-row 2xl:justify-evenly  bg-[#F8F8F8] mx-48 rounded-lg shadow-xl p-5 mb-5">
+         <div className="persona flex flex-col  lg:flex-row xl:flex-row 2xl:flex-row">
             <img src="/assets/Ellipse 1.png" alt="image" />
             <div className="flex flex-col ml-5">
             <strong>Country</strong>
@@ -112,108 +113,118 @@ export default function Donator() {
 
 
      </div>
+
+</div>
+
      {/* items 2 */}
 
-     <div className="details flex justify-evenly bg-blue-400  text-white mx-48 rounded-lg shadow-xl p-5 mb-5">
-         <div className="persona flex">
-            <img src="/assets/Ellipse 1.png" alt="image" />
-            <div className="flex flex-col ml-5">
-            <strong>Country</strong>
-            <p>Australia</p>
-            </div>
+     <div className="flex justify-center">
+  
+  <div className="details flex flex-col     items-start lg:flex-row lg:justify-evenly xl:flex-row xl:justify-evenly 2xl:flex-row 2xl:justify-evenly  bg-[#F8F8F8] mx-48 rounded-lg shadow-xl p-5 mb-5">
+           <div className="persona flex flex-col  lg:flex-row xl:flex-row 2xl:flex-row">
+              <img src="/assets/Ellipse 1.png" alt="image" />
+              <div className="flex flex-col ml-5">
+              <strong>Country</strong>
+              <p>Australia</p>
+              </div>
+  
+  
+              {/*  */}
+              <div className="flex flex-col ml-5">
+              <strong>City</strong>
+              <p>Viena</p>
+              </div>
+              {/*  */}
+  
+              <div className="flex flex-col ml-5">
+              <strong>What?</strong>
+              <p>I'm a shelder</p>
+              </div>
+  
+    {/*  */}
+  
+    <div className="flex flex-col ml-5  ">
+              <strong>Description</strong>
+              <p className="text-sm">hi, my name is Szymon and i’m a professional shelterer  at my 3 Room   apartament in  viennai can host you</p>
+  </div>
+           </div>
+           <div className="contact flex justify-center">
+           <div className="flex flex-col ml-5 ">
+              <strong>Contact </strong>
+              <p className="break-all">+43 676 49459295</p>
+              <p>szymon@gmail.com</p>
+  </div>
+  
+  <div className="flex flex-col ml-5 ">
+              <strong>Available? </strong>
+              <p className="text-green-300">Available</p>
+              
+  </div>
+           </div>
+  
+  
+       </div>
+  
+  </div>
 
-
-            {/*  */}
-            <div className="flex flex-col ml-5">
-            <strong>City</strong>
-            <p>Viena</p>
-            </div>
-            {/*  */}
-
-            <div className="flex flex-col ml-5">
-            <strong>What?</strong>
-            <p>I'm a shelder</p>
-            </div>
-
-  {/*  */}
-
-  <div className="flex flex-col ml-5  ">
-            <strong>Description</strong>
-            <p className="text-sm">hi, my name is Szymon and i’m a professional shelterer  at my 3 Room   apartament in  viennai can host you</p>
-</div>
-         </div>
-         <div className="contact flex justify-center">
-         <div className="flex flex-col ml-5 ">
-            <strong>Contact </strong>
-            <p className="break-all">+43 676 49459295</p>
-            <p>szymon@gmail.com</p>
-</div>
-
-<div className="flex flex-col ml-5 ">
-            <strong>Available? </strong>
-            <p className="text-green-300">Available</p>
-            
-</div>
-         </div>
-
-
-     </div>
-
-
-     {/* item 3 */}
-
+{/* item 3  */}
      
-     <div className="details flex justify-evenly bg-blue-400  text-white mx-48 rounded-lg shadow-xl p-5 mb-5">
-         <div className="persona flex">
-            <img src="/assets/Ellipse 1.png" alt="image" />
-            <div className="flex flex-col ml-5">
-            <strong>Country</strong>
-            <p>Australia</p>
-            </div>
-
-
-            {/*  */}
-            <div className="flex flex-col ml-5">
-            <strong>City</strong>
-            <p>Viena</p>
-            </div>
-            {/*  */}
-
-            <div className="flex flex-col ml-5">
-            <strong>What?</strong>
-            <p>I'm a shelder</p>
-            </div>
-
-  {/*  */}
-
-  <div className="flex flex-col ml-5  ">
-            <strong>Description</strong>
-            <p className="text-sm">hi, my name is Szymon and i’m a professional shelterer  at my 3 Room   apartament in  viennai can host you</p>
-</div>
-         </div>
-         <div className="contact flex justify-center">
-         <div className="flex flex-col ml-5 ">
-            <strong>Contact </strong>
-            <p className="break-all">+43 676 49459295</p>
-            <p>szymon@gmail.com</p>
-</div>
-
-<div className="flex flex-col ml-5 ">
-            <strong>Available? </strong>
-            <p className="text-green-300">Available</p>
-            
-</div>
-         </div>
-
-
-     </div>
-
+<div className="flex justify-center">
+  
+  <div className="details flex flex-col     items-start lg:flex-row lg:justify-evenly xl:flex-row xl:justify-evenly 2xl:flex-row 2xl:justify-evenly  bg-[#2488FF] mx-48 rounded-lg shadow-xl p-5 mb-5">
+           <div className="persona flex flex-col  lg:flex-row xl:flex-row 2xl:flex-row">
+              <img src="/assets/Ellipse 2.png" alt="image" />
+              <div className="flex flex-col ml-5">
+              <strong>Organization</strong>
+              <p></p>
+              </div>
+  
+  
+              {/*  */}
+              <div className="flex flex-col ml-5">
+              <strong></strong>
+              <p></p>
+              </div>
+              {/*  */}
+  
+              <div className="flex flex-col ml-5">
+              <strong>What?</strong>
+              <p>I'm a shelder</p>
+              </div>
+  
+    {/*  */}
+  
+    <div className="flex flex-col ml-5  ">
+              <strong>Description</strong>
+              <p className="text-sm">hi, my name is Szymon and i’m a professional shelterer  at my 3 Room   apartament in  viennai can host you</p>
+  </div>
+           </div>
+           <div className="contact flex justify-center">
+           <div className="flex flex-col ml-5 ">
+              <strong>Contact </strong>
+              <p className="break-all">+43 676 49459295</p>
+              <p>szymon@gmail.com</p>
+  </div>
+  
+  <div className="flex flex-col ml-5 ">
+              <strong>Available? </strong>
+              <p className="text-green-300">Available</p>
+              
+  </div>
+           </div>
+  
+  
+       </div>
+  
+  </div>
 
      {/* item 4 */}
 
      
-     <div className="details flex justify-evenly bg-blue-400  text-white mx-48 rounded-lg shadow-xl p-5 mb-5">
-         <div className="persona flex">
+     <div className="flex justify-center">
+  
+<div className="details flex flex-col     items-start lg:flex-row lg:justify-evenly xl:flex-row xl:justify-evenly 2xl:flex-row 2xl:justify-evenly  bg-[#F8F8F8] mx-48 rounded-lg shadow-xl p-5 mb-5">
+         <div className="persona flex flex-col  lg:flex-row xl:flex-row 2xl:flex-row">
             <img src="/assets/Ellipse 1.png" alt="image" />
             <div className="flex flex-col ml-5">
             <strong>Country</strong>
@@ -257,8 +268,160 @@ export default function Donator() {
 
      </div>
 
-    
+</div>
 
+
+{/* item 5  */}
+
+<div className="flex justify-center">
+  
+  <div className="details flex flex-col     items-start lg:flex-row lg:justify-evenly xl:flex-row xl:justify-evenly 2xl:flex-row 2xl:justify-evenly  bg-[#F8F8F8] mx-48 rounded-lg shadow-xl p-5 mb-5">
+           <div className="persona flex flex-col  lg:flex-row xl:flex-row 2xl:flex-row">
+              <img src="/assets/Ellipse 1.png" alt="image" />
+              <div className="flex flex-col ml-5">
+              <strong>Country</strong>
+              <p>Australia</p>
+              </div>
+  
+  
+              {/*  */}
+              <div className="flex flex-col ml-5">
+              <strong>City</strong>
+              <p>Viena</p>
+              </div>
+              {/*  */}
+  
+              <div className="flex flex-col ml-5">
+              <strong>What?</strong>
+              <p>I'm a shelder</p>
+              </div>
+  
+    {/*  */}
+  
+    <div className="flex flex-col ml-5  ">
+              <strong>Description</strong>
+              <p className="text-sm">hi, my name is Szymon and i’m a professional shelterer  at my 3 Room   apartament in  viennai can host you</p>
+  </div>
+           </div>
+           <div className="contact flex justify-center">
+           <div className="flex flex-col ml-5 ">
+              <strong>Contact </strong>
+              <p className="break-all">+43 676 49459295</p>
+              <p>szymon@gmail.com</p>
+  </div>
+  
+  <div className="flex flex-col ml-5 ">
+              <strong>Available? </strong>
+              <p className="text-green-300">Available</p>
+              
+  </div>
+           </div>
+  
+  
+       </div>
+  
+  </div>
+
+  {/* item 6  */}
+  <div className="flex justify-center">
+  
+  <div className="details flex flex-col     items-start lg:flex-row lg:justify-evenly xl:flex-row xl:justify-evenly 2xl:flex-row 2xl:justify-evenly  bg-[#2488FF] mx-48 rounded-lg shadow-xl p-5 mb-5">
+           <div className="persona flex flex-col  lg:flex-row xl:flex-row 2xl:flex-row">
+              <img src="/assets/Ellipse 2.png" alt="image" />
+              <div className="flex flex-col ml-5">
+              <strong>Organization</strong>
+              <p></p>
+              </div>
+  
+  
+              {/*  */}
+              <div className="flex flex-col ml-5">
+              <strong></strong>
+              <p></p>
+              </div>
+              {/*  */}
+  
+              <div className="flex flex-col ml-5">
+              <strong>What?</strong>
+              <p>I'm a shelder</p>
+              </div>
+  
+    {/*  */}
+  
+    <div className="flex flex-col ml-5  ">
+              <strong>Description</strong>
+              <p className="text-sm">hi, my name is Szymon and i’m a professional shelterer  at my 3 Room   apartament in  viennai can host you</p>
+  </div>
+           </div>
+           <div className="contact flex justify-center">
+           <div className="flex flex-col ml-5 ">
+              <strong>Contact </strong>
+              <p className="break-all">+43 676 49459295</p>
+              <p>szymon@gmail.com</p>
+  </div>
+  
+  <div className="flex flex-col ml-5 ">
+              <strong>Available? </strong>
+              <p className="text-green-300">Available</p>
+              
+  </div>
+           </div>
+  
+  
+       </div>
+  
+  </div>
+
+  {/*item 7  */}
+  <div className="flex justify-center">
+  
+  <div className="details flex flex-col     items-start lg:flex-row lg:justify-evenly xl:flex-row xl:justify-evenly 2xl:flex-row 2xl:justify-evenly  bg-[#F8F8F8] mx-48 rounded-lg shadow-xl p-5 mb-5">
+           <div className="persona flex flex-col  lg:flex-row xl:flex-row 2xl:flex-row">
+              <img src="/assets/Ellipse 1.png" alt="image" />
+              <div className="flex flex-col ml-5">
+              <strong>Country</strong>
+              <p>Australia</p>
+              </div>
+  
+  
+              {/*  */}
+              <div className="flex flex-col ml-5">
+              <strong>City</strong>
+              <p>Viena</p>
+              </div>
+              {/*  */}
+  
+              <div className="flex flex-col ml-5">
+              <strong>What?</strong>
+              <p>I'm a shelder</p>
+              </div>
+  
+    {/*  */}
+  
+    <div className="flex flex-col ml-5  ">
+              <strong>Description</strong>
+              <p className="text-sm">hi, my name is Szymon and i’m a professional shelterer  at my 3 Room   apartament in  viennai can host you</p>
+  </div>
+           </div>
+           <div className="contact flex justify-center">
+           <div className="flex flex-col ml-5 ">
+              <strong>Contact </strong>
+              <p className="break-all">+43 676 49459295</p>
+              <p>szymon@gmail.com</p>
+  </div>
+  
+  <div className="flex flex-col ml-5 ">
+              <strong>Available? </strong>
+              <p className="text-green-300">Available</p>
+              
+  </div>
+           </div>
+  
+  
+       </div>
+  
+  </div>
+  
 
     </section>
   );
