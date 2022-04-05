@@ -12,11 +12,11 @@ export default function Hero() {
 </ul>
 
 
-<div className='Contact flex justify-between mt-5'>
-    <div className='imgInfo flex space-x-5 justify-around px-24'>
+<div className='Contact flex flex-col space-y-4 items-center  md:flex-row md:justify-between lg:flex-row lg:justify-between xl:flex-row xl:justify-between 2xl:flex-row 2xl:justify-between mt-5'>
+    <div className='imgInfo flex flex-col md:flex-row md:space-x-5 md:justify-around lg:flex-row lg:space-x-5 lg:justify-around  xl:flex-row xl:space-x-5 xl:justify-around 2xl:flex-row 2xl:space-x-5 2xl:justify-around px-24'>
         <img src="/assets/Ellipse preview admin.png" className='' alt="Upload img" />
 
-        <div className='upload-button flex flex-col space-y-1 '>
+        <div className='upload-button flex flex-col space-y-2 mt-2  '>
         <button className='  btn-sm rounded-full text-sm text-white font-normal font-poppin bg-[#005BBB]'>Upload Image </button>
         <button className='  btn-sm rounded-full text-sm text-white font-normal font-poppin bg-[#BB0000]'>Delete Picture </button>
         </div>
@@ -37,7 +37,7 @@ export default function Hero() {
 
  {/* contact form started */}
 
-<div className='flex justify-around'>
+<div className='flex flex-col md:flex-row md:justify-around lg:flex-row lg:justify-around xl:flex-row xl:justify-around 2xl:flex-row 2xl:justify-around'>
 
 
 {/* main contact form div */}
