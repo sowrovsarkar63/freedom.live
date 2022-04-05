@@ -3,7 +3,7 @@ import React from 'react'
 export default function Navbar() {
   return (
     <>
-    <nav className='flex justify-around py-6 bg-white'>
+    <nav className='flex flex-col  space-y-4 space-x-3 md:flex-row md:justify-around lg:flex-row lg:justify-around xl:flex-row xl:justify-around 2xl:flex-row 2xl: justify-around py-6 bg-white'>
       <div className="flex logo">
           <img src="/assets/image 3.png" alt="freedomlive logo" />
           <h2 className='flex items-end text-2xl mx-1 text-[#9BC9FF] font-bold font-poppin '>freedom <span className='text-blue-900'>.live</span></h2>
