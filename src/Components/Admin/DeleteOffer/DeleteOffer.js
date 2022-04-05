@@ -38,7 +38,7 @@ export default function DeleteOffer() {
     </section>
 
 
-    <section className='delete-info'>
+    <section className='delete-info mb-10 pb-10'>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 md:gap-4 lg:gap-6 p-5'>
           <div className="delete-text px-10">
               <h2 className='text-xl font-poppin font-bold '>How to delete offer?</h2>
